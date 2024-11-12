@@ -54,7 +54,7 @@ if(isset($_POST['submit'])){
 </head>
 <body>
     <div class="main-form">
-        <form action="update.php" method="post" autocomplete="off" id="reg-form" class="reg-form">
+        <form action="update.php" method="post" autocomplete="off" id="reg-form" class="reg-form" onsubmit="return confirmUpdate()">
                     <div class="name">
                         <div class="box1" id="box">
                             <label for="f_name" class="f-name">Firstname:</label><br>
@@ -97,10 +97,15 @@ if(isset($_POST['submit'])){
                     </div>
                     </div>
                     <div class="submit-btn">
-                        <input type="submit" name="submit" value="UPDATE" class="btn-update">
+                        <input type="submit" name="submit" value="UPDATE" class="btn-update" >
                     </div>
         </form>
     </div>   
+<script>
+    function confirmUpdate(){
+        return confirm("Are you sure you want to update?");
+    }
+</script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
