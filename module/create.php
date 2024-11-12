@@ -18,7 +18,7 @@ if(isset($_POST['submit'])){
 
 }
 echo '<script>alert("Successfully Added!")</script>';
-echo '<script>window.location.href="student_form.php"</script>';
+echo '<script>window.location.href="index.php"</script>';
 
 
 ?>
