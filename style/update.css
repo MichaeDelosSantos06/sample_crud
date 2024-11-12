@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.main-form{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    margin: auto;
+    padding: 50px;
+}
+
+.reg-form{
+    position: relative;
+    margin: auto;
+    width: 50%;
+    top: -10px;
+}
+
+span{
+    position: relative;
+    color: red;
+}
+
+input{
+    position: relative;
+    text-align: center;
+}
+
+.btn-update{
+    position: relative;
+    width: 100%;
+    padding: 10px 0px;
+    background-color: blue;
+    text-align: center;
+    border-radius: 10px;
+    top: 2rem;
+    color: white;
+    border: none;
+}
+

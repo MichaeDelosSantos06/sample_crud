@@ -1,0 +1,175 @@
+body, *{
+    margin: 0;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    
+}
+
+
+
+.main{
+    position: relative;
+    text-align: center;
+    height: 90vh;
+    width: 45%;
+    margin: auto;
+    background-color:rgba(255, 255, 255, 0.323); 
+    backdrop-filter: blur(10px);
+    margin-top: 35px;
+    border-top-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    background-image: url('img/lspu-logo.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* filter: blur(10px); */
+}
+
+h1{
+    position: relative;
+    margin-bottom: 15%;
+    color:white;
+    font-family: serif;
+    font-weight: bolder;
+    text-shadow: 4px 2px 4px black;
+    background-color: #A63D33;
+    padding: 15px;
+    border-top-left-radius: 60px;
+}
+
+.logo, img{
+    position: absolute;
+    display: inline-block;
+    width: 47px;
+    top: 5.5px;
+    left: 40px;
+}
+
+.logo2, img{
+    position: absolute;
+    display: inline-block;
+    width: 45px;
+    top: 6px;
+    right: 110px;
+}
+
+#box{
+    margin: 20px;
+    display: inline-block;
+}
+
+.name{
+    position: relative;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.gender{
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.f-name{
+    position: relative;
+    left: -3rem;
+}
+
+.m-name{
+    position: relative;
+    left: -2.5rem;
+}
+
+.l-name{
+    position: relative;
+    left: -3rem;
+}
+
+.email{
+    position: relative;
+    left: -3.8rem;
+}
+
+.age{
+    position: relative;
+    left: -4.1rem;
+}
+
+.course{
+    position: relative;
+    left: -3.6rem;
+}
+
+.sex{
+    position: relative;
+    left: -4rem;
+}
+
+input, select{
+    position: relative;
+    border: none;
+    font-size: 15px;
+    outline: none;
+    width: 10rem;
+    height: 2rem;
+    border-radius: 5px;
+    padding: 0px 8px;
+}
+
+input:focus{
+    border: .5px solid rgba(0, 0, 255, 0.536);
+}
+
+span{
+    position: relative;
+    color: red;
+    left: -2px;
+}
+
+.submit{
+    position: relative;
+    width: 38rem;
+    height: 3rem;
+    top: 3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+    
+}
+
+.submit:hover{
+    background-color: rgba(41, 41, 247, 0.952);
+    transition: 0.5s;
+}
+
+label{
+    position: relative;
+    top: -4px;
+}
+
+form{
+    position: relative;
+    top: -30px;
+}
+
+a{
+    position: relative;
+    color: rgba(0, 0, 255, 0.618);
+    top: 20px;
+    /* text-decoration: none; */
+    animation-duration: 1s;
+    transition-duration: 0.5s;
+}
+
+a:hover{
+    color: white;
+    transition: 0.5s;
+    
+}
+
+.table{
+    position: relative;
+    top: 25px;
+    right: -14rem;
+}
